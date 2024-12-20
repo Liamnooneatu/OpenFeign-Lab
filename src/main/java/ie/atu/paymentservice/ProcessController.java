@@ -15,3 +15,16 @@ public class ProcessController {
         return "Called the payment service " + person.getName();
     }
 }
+
+/*
+http://localhost:8080/person/createPerson
+{
+        "name" : "Liam",
+        "age" : 20,
+        "email" : "G00420041@atu.ie",
+        "title" : "title",
+        "employeeId" : "56789",
+        "position" : "Manager" ,
+        "department" : "Software"
+        }
+        */
